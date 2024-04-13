@@ -22,34 +22,3 @@ window.addEventListener("scroll", function(event) {
         anchor.style.color = isLinkActive ? "#9a9a9a" : "#fff";
     }
 });
-
-// window.addEventListener("scroll", function(event) {
-//     let getScrollPosition = this.scrollY;
-
-//     if (getScrollPosition < 943.2000122070312){
-//         homeAnchor.style.color = "#9a9a9a"
-//         introAnchor.style.color = "#fff"
-//         historyAnchor.style.color = "#fff"
-//         legacyAnchor.style.color = "#fff"
-//     } else if (getScrollPosition >= 943.2000122070312 &&  getScrollPosition < 2420){
-//         introAnchor.style.color = "#9a9a9a"
-//         homeAnchor.style.color = "#fff"
-//         historyAnchor.style.color = "#fff"
-//         legacyAnchor.style.color = "#fff"
-//     } else if (getScrollPosition >= 2420 &&  getScrollPosition < 6630.39990234375){
-//         historyAnchor.style.color = "#9a9a9a"
-//         homeAnchor.style.color = "#fff"
-//         introAnchor.style.color = "#fff"
-//         legacyAnchor.style.color = "#fff"
-//     } else if (getScrollPosition >= 6630.39990234375 &&  getScrollPosition < 7211.2001953125){
-//         legacyAnchor.style.color = "#9a9a9a"
-//         homeAnchor.style.color = "#fff"
-//         introAnchor.style.color = "#fff"
-//         historyAnchor.style.color = "#fff"
-//     } else if (getScrollPosition >= 7211.2001953125){
-//         homeAnchor.style.color = "#fff"
-//         introAnchor.style.color = "#fff"
-//         historyAnchor.style.color = "#fff"
-//         legacyAnchor.style.color = "#fff"
-//     }
-// });
