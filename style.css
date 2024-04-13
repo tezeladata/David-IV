@@ -60,13 +60,14 @@ header img:hover{
     padding: 1rem;
     transition: 0.3s all;
 }
-#header-a1{
-    color: #9a9a9a;
-}
 .header-part2 a:hover{
     color: #9a9a9a;
 }
-#header-a1:hover{
+
+.active {
+    color: #9a9a9a;
+}
+.inactive {
     color: #fff;
 }
 
