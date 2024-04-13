@@ -1,24 +1,31 @@
-homeAnchor = document.getElementById("header-a1")
-introAnchor = document.getElementById("header-a2")
-historyAnchor = document.getElementById("header-a3")
-legacyAnchor = document.getElementById("header-a4")
+const home = document.querySelector(".hero");
+const intro = document.querySelector(".introduction");
+const history = document.querySelector(".historical-context");
+const legacy = document.querySelector(".legacy");
+const footer = document.querySelector("footer");
+
+const anchorIDs = ["header-a1", "header-a2", "header-a3", "header-a4"];
 
 window.addEventListener("scroll", function(event) {
-    let getScrollPosition = this.scrollY;
-
-    const anchorIDs = ["header-a1", "header-a2", "header-a3", "header-a4"];
+    const homeRect = home.getBoundingClientRect();
+    const introRect = intro.getBoundingClientRect();
+    const historyRect = history.getBoundingClientRect();
+    const legacyRect = legacy.getBoundingClientRect();
+    const footerRect = footer.getBoundingClientRect();
 
     const linkTargets = {
-        "header-a1": getScrollPosition < 943.2000122070312,
-        "header-a2": getScrollPosition >= 943.2000122070312 && getScrollPosition < 2420,
-        "header-a3": getScrollPosition >= 2420 && getScrollPosition < 6630.39990234375,
-        "header-a4": getScrollPosition >= 6630.39990234375 && getScrollPosition < 7211.2001953125,
+        "header-a1": homeRect.top < 0 && homeRect.bottom > 0,
+        "header-a2": introRect.top < 0 && introRect.bottom > 0,
+        "header-a3": historyRect.top < 0 && historyRect.bottom > 0,
+        "header-a4": legacyRect.top < 0 && legacyRect.bottom > 0,
     };
+
+    const isFooterInView = footerRect.top < window.innerHeight && footerRect.bottom >= 0;
 
     for (let i = 0; i < anchorIDs.length; i++) {
         const anchorID = anchorIDs[i];
         const anchor = document.getElementById(anchorID);
         const isLinkActive = linkTargets[anchorID];
-        anchor.style.color = isLinkActive ? "#9a9a9a" : "#fff";
+        anchor.style.color = isLinkActive && !isFooterInView ? "#9a9a9a" : "#fff";
     }
 });
