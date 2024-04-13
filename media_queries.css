@@ -1,0 +1,591 @@
+@media screen and (max-width: 2000px){
+    .hero-part1{
+        display: none;
+        width: 0%;
+    }
+    .hero-part2, .hero-part3{
+        width: 50%;
+    }
+    .intro1-container p{
+        max-width: 90%;
+    }
+    #intro-part2-background{
+        width: 47.5rem;
+        left: 8rem;
+        top: 45rem;
+    }
+    .intro-part2 p{
+        font-size: 1rem;
+        max-width: 50%;
+        margin-left: 20%;
+    }
+    .intro-part1 h2{
+        font-size: 2.3rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1800px){
+    #intro-part1-background{
+        position: absolute;
+        width: 50rem;
+        left: 5rem;
+    }
+    .intro1-container p{
+        font-size: 1rem;
+        max-width: 80%;
+    }
+    #intro-part2-background{
+        display: none;
+    }
+    .intro-part2 p{
+        background-color: #686868;
+        color: white;
+        border-radius: 15px;
+        margin-top: 100px;
+        padding: 75px 15px 75px 50px;
+    }
+}
+
+@media screen and (max-width: 1700px){
+    .intro-part2 p{
+        margin-left: 25%;
+    }
+    .intro1-container p{
+        font-size: 1rem;
+        max-width: 80%;
+        margin-left: 7.5%;
+        text-align: left;
+    }
+    #intro-part1-church{
+        display: none;
+    }
+    .intro1-container p{
+        text-align: center;
+    }
+    .intro-part1 h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .history-container img{
+        width: 75%;
+        height: 75%;
+    }
+    .history-container2 img{
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 1600px){
+    .hc3-grid h2{
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    .hc3-grid p{
+        font-size: 14px;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    #intro-part1-background{
+        width: 40rem;
+        height: 40rem;
+    }
+    .intro1-container p{
+        font-size: 1rem;
+        max-width: 90%;
+        margin-left: -30px;
+        text-align: left;
+    }
+    .history-container2{
+        padding-top: 100px;
+    }
+    .history-container2 p{
+        font-size: 16px;
+        padding: 50px 0 50px 0;
+    }
+    .history-container2 img{
+        width: 15rem;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .header-part1 img{
+        width: 70px;
+    }
+    .header-part2 a{
+        font-size: 18px;
+    }
+    .header-part3 {
+        display: none;
+    }
+    .hero-part3 img{
+        width: 140%;
+    }
+    .intro1-container p, .intro-part2 p{
+        font-size: 0.8rem;
+    }
+    #intro-part1-background{
+        width: 35rem;
+        height: 35rem;
+    }
+    .intro-part1 h2{
+        font-size: 2rem;
+        text-align: left;
+    }
+    #intro-part2-img1{
+        width: 25rem;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .intro1-container p{
+        max-width: 97.5%;
+    }
+    .intro-part2 p{
+        padding: 35px 10px 35px 35px;
+    }
+    .history-container2{
+        padding-top: 200px;
+    }
+    .hc3-grid h2{
+        font-size: 0.8rem;
+        margin-bottom: 0.25rem;
+    }
+    .hc3-grid p{
+        font-size: 12px;
+        padding: 0.5rem;
+    }
+    .sword-div1, .sword-div2{
+        width: 3rem;
+        height: 3rem;
+    }
+    .main-sword-div{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .hc4-1 h2{
+        font-size: 2rem;
+    }
+    .hc4-1 p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    h1{
+        margin-left: 50px;
+    }
+    #span1, #span3{
+        font-size: 50px;
+    }
+    #span2{
+        font-size: 30px;
+    }
+    .hero-part2 p{
+        font-size: 20px;
+    }
+    .history-container p, .history-container h2{
+        font-size: 15px;
+    }
+    .history-container img{
+        width: 50%;
+        height: 40%;
+    }
+    .hc1 span{
+        display: none;
+    }
+    .hc1, .hc4{
+        border: 2px solid #6E6767;
+        border-radius: 15px;
+    }
+    .history-container2{
+        padding-top: 0px;
+    }
+    .history-container2 img{
+        width: 10rem;
+    }
+    #hc3-h2-main{
+        color: white;
+        font-size: 1.5rem;
+        padding: 1.4rem;
+    }
+    #hc3-p-main{
+        font-size: 0.85rem;
+        color: #6E6767;
+        padding: 0px 0px 2rem 0px;
+        max-width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    #intro-part1-background{
+        width: 30rem;
+    }
+    #intro-part2-img1{
+        width: 20rem;
+    }
+    .hero{
+        height: 70vh;
+    }
+    .hc3-grid h2{
+        font-size: 0.6rem;
+        margin-bottom: 0.55rem;
+    }
+    .hc3-grid p{
+        font-size: 10px;
+        padding: 1rem;
+    }
+    .sword-div1, .sword-div2{
+        width: 2rem;
+        height: 2rem;
+    }
+    .main-sword-div{
+        width: 3rem;
+        height: 3rem;
+    }
+    .hc3-grid h2{
+        font-size: 10px;
+    }
+    .hc3-grid p{
+        font-size: 8px;
+    }
+    .sword-div1, .sword-div2{
+        width: 2.5rem;
+        height: 2.5rem;
+        margin: 0.5rem;
+    }
+    .main-sword-div{
+        width: 3rem;
+        height: 3rem;
+        margin: 0.75rem;
+    }
+    #his-context i{
+        padding-left: 2rem;
+        font-size: 1rem;
+    }
+    .lc1-1 p, .lc2-2 p{
+        font-size: 16px;
+    }
+    .lc1-2 img, .lc2-1 img{
+        width: 12.5rem;
+    }
+    .lc1-1 h2{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .intro-part2 p{
+        margin-top: 550px;
+    }
+    .intro1-container p{
+        max-width: 130%;
+    }
+    .intro1-container p, .intro-part2 p{
+        font-size: 0.7rem;
+    }
+    .hc4-1 h2{
+        font-size: 1.5rem;
+    }
+    .hc4-1 p{
+        font-size: 0.75rem;
+    }
+    .lc1-1 h2{
+        font-size: 1.5rem;
+    }
+    .lc1-1 p, .lc2-2 p{
+        font-size: 12px;
+    }
+    footer p{
+        font-size: 16px;
+        max-width: 60%;
+        margin-left: 20%;
+    }
+    #footer-cont{
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .intro1-container p{
+        width: 200%;
+        padding-top: 12.5rem;
+    }
+    #intro-part1-background{
+        top: 5rem;
+    }
+    #intro-part2-img1{
+        display: none;
+    }
+    .intro-part2 p{
+        margin-top: 1000px;
+    }
+    #into-h2{
+        font-size: 25px;
+    }
+    .history-container p, .history-container h2{
+        font-size: 12px;
+    }
+    .hc2{
+        align-items: center;
+        justify-content: center;
+    }
+    .hc3{
+        justify-content: center;
+        align-items: center;
+    }
+    .hc3-grid p{
+        display: none;
+    }
+    .hc4-1 h2{
+        font-size: 1rem;
+    }
+    .hc4-1 p{
+        font-size: 9px;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    .intro-part2 p span{
+        display: none;
+    }
+    .intro1-container p{
+        max-width: 150%;
+        margin-right: 150px;
+    }
+    .history-container2 img{
+        width: 7.5rem;
+    }
+    .history-container2 p{
+        font-size: 14px;
+    }
+    .hero{
+        height: 60vh;
+    }
+    .lc1-1 h2{
+        font-size: 1rem;
+    }
+    .lc1-1 p, .lc2-2 p{
+        font-size: 10px;
+    }
+    .lc1-2 img, .lc2-1 img{
+        width: 7.5rem;
+    }
+    .lc2-2 p{
+        max-width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #span1, #span3{
+        font-size: 40px;
+        padding: 5px;
+    }
+    #span2{
+        font-size: 20px;
+    }
+    .hero-part2 p{
+        font-size: 16px;
+        padding-left: 20px;
+    }
+    .header-part1 img{
+        width: 50px;
+    }
+    .header-part2 a{
+        font-size: 14px;
+    }
+    .hero-part3 img{
+        width: 130%;
+    }
+    #into-h2{
+        font-size: 20px;
+        width: 100%;
+        padding-left: 50px;
+    }
+    #intro-part1-background{
+        display: none;
+    }
+    .intro1-container p{
+        padding: 0;
+        margin: 0;
+        padding-left: 50px;
+    }
+    .intro-part2 p, .intro-part2 i, .intro1-container span{
+        display: none;
+    }
+    .history-container img{
+        width: 40%;
+        height: 30%;
+    }
+    .intro1-container p{
+        color: white;
+    }
+    .header-part1 img{
+        display: none;
+    }
+    .header-part2{
+        width: 90%;
+        padding-right: 5%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .hero{
+        height: 55vh;
+    }
+    #hc3-h2-main{
+        color: white;
+        font-size: 1rem;
+    }
+    #hc3-p-main{
+        font-size: 0.5rem;
+    }
+    .hc4-2{
+        display: none;
+    }
+    .hc4-1{
+        grid-area: 1 / 1 / 3 / 4;
+        border-top-left-radius: 1.25rem;
+        border-bottom-left-radius: 1.25rem;
+    }
+    .hc4-1 h2{
+        font-size: 1.5rem;
+    }
+    .hc4-1 p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .hero-part2 p{
+        display: none;
+    }
+    h1{
+        margin-right: 50px;
+    }
+    .hero-part3 img{
+        width: 180%;
+    }
+    .header-part2 a{
+        font-size: 12px;
+        padding: 5px;
+    }
+    #span1, #span3{
+        font-size: 25px;
+        padding: 2px;
+    }
+    #span2{
+        font-size: 16px;
+    }
+    .hero-part3 img{
+        display: none;
+    }
+    .hero-part2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: right;
+        margin-left: 10%;
+    }
+    #span1, #span3{
+        font-size: 50px;
+        padding: 30px 0 30px 0;
+    }
+    #span2{
+        font-size: 30px;
+    }
+    .history-container img{
+        display: none;
+    }
+    .hc1{
+        grid-area: 1 / 1 / 2 / 4;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        text-align: center;
+    }
+    .hc4{
+        grid-area: 2 / 1 / 3 / 4;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+    .hc4 p{
+        text-align: center;
+    }
+    .history-container p, .history-container h2{
+        font-size: 10px;
+    }
+    .history-container2 p{
+        font-size: 10px;
+    }
+    .history-container2{
+        padding-top: -100px;
+    }
+    .hc3-grid h2{
+        font-size: 8px;
+    }
+    .sword-div1, .sword-div2{
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 0.25rem;
+    }
+    .main-sword-div{
+        width: 2rem;
+        height: 2rem;
+        margin: 0.5rem;
+    }
+    .hc4-1 h2{
+        font-size: 1rem;
+    }
+    .hc4-1 p{
+        font-size: 9px;
+    }
+    .history-container4 p, .history-container4 h2{
+        text-align: center;
+    }
+    #lc2-p1{
+        display: none;
+    }
+    .lc1-1 h2{
+        font-size: 0.8rem;
+    }
+    .lc1-1 p, .lc2-2 p{
+        font-size: 8px;
+    }
+    .lc1-2 img, .lc2-1 img{
+        width: 5rem;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .hero-part2{
+        margin-left: 5%;
+    }
+    #span1, #span3{
+        font-size: 40px;
+        padding: 30px 0 30px 0;
+    }
+    #span2{
+        font-size: 20px;
+    }
+    .history-container2 img{
+        display: none;
+    }
+    .hc3-grid h2{
+        font-size: 5px;
+    }
+    .sword-div1, .sword-div2{
+        width: 1rem;
+        height: 1rem;
+    }
+    .main-sword-div{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
